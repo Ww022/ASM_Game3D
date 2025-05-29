@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F0155622-FBC6-EBB3-90A3-5E912D69D900}</ProjectGuid>
+    <ProjectGuid>{48015389-B08E-DF29-BAA5-F70B056E93C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.Core</AssemblyName>
@@ -85,9 +85,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Listeners\UIInterfaces\UnityOnEndDragMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\fsEnumConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Optimization\StaticPropertyAccessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Operators\AndHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Variables\ApplicationVariables.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Optimization\StaticFunctionInvoker_0.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Operators\AndHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\AssemblyQualifiedNameParser\ParsedAssemblyQualifiedName.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Operators\LogicalNegationHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Optimization\IOptimizedInvoker.cs" />
@@ -146,8 +146,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Utilities\IAnalyticsIdentifiable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Ensure\Extensions\XComparable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Listeners\AnimatorMessageListener.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Variables\VariablesSaver.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Ensure\EnsureThat.Guids.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Variables\VariablesSaver.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Utilities\IInitializable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Internal\fsOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\RenamedAssemblyAttribute.cs" />
@@ -291,8 +291,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Graphs\IGraphElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Ensure\EnsureThat.NullableValueTypes.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Utilities\UnityObjectUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsConverterRegistrar.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\EditorBinding\Inspector\InspectorDelayedAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsConverterRegistrar.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\Unity\RectOffset_DirectConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionEnterMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Graphs\IGraph.cs" />
@@ -345,8 +345,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Listeners\IGraphEventListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Optimization\OptimizedReflection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Cloning\Cloners\FakeSerializationCloner.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\Unity\AnimationCurve_DirectConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Optimization\InstanceFunctionInvoker_4.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\Unity\AnimationCurve_DirectConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Optimization\StaticFunctionInvoker_3.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\LooseAssemblyName.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Utilities\IIdentifiable.cs" />
@@ -400,8 +400,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Graphs\MergedGraphElementCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Utilities\ComponentHolderProtocol.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Reflection\Operators\NumericNegationHandler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Variables\VariableDeclaration.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Collections\MergedKeyedCollection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Variables\VariableDeclaration.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Graphs\IGraphNester.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Variables\VariableDeclarations.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Core\Pooling\DictionaryPool.cs" />
@@ -1257,7 +1257,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{EA0FE656-E0B2-65C4-C8A5-690C84DC6A56}</Project>
+      <Project>{C2CD0E62-FDAD-686B-BE5B-26B1045A4E0C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
