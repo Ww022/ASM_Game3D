@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/HThuan/ASM_Game3D
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55836
+Successfully changed project path to: C:/HThuan/ASM_Game3D
+C:/HThuan/ASM_Game3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23048] Host "[IP] 192.168.97.10 [Port] 0 [Flags] 2 [Guid] 103919507 [EditorId] 103919507 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23048] Host "[IP] 192.168.97.10 [Port] 0 [Flags] 2 [Guid] 103919507 [EditorId] 103919507 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path C:/Unity/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/HThuan/ASM_Game3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25a9)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.6641
+Initialize mono
+Mono path[0] = 'C:/Unity/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004314 seconds.
+- Loaded All Assemblies, in  0.316 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 568ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (254ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.481 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 861ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.0 KB). Loaded Objects now: 3596.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 2.498900 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.144900 ms  DeleteObjects: 0.107900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18922.851505 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Ground_Plant.prefab
+  artifactKey: Guid(5fbced8045de249439bcffe84662e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Ground_Plant.prefab using Guid(5fbced8045de249439bcffe84662e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1eafa9049996e927c076baf63a16f6') in 0.042657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Tree_Log.prefab
+  artifactKey: Guid(b1c21629c3d16ea438401633c8324524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Tree_Log.prefab using Guid(b1c21629c3d16ea438401633c8324524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d13b909ffaf6065a36525206cd9f92') in 0.002125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Tree_Pine.prefab
+  artifactKey: Guid(54120123bbba00a40b47ab77f2ed61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Tree_Pine.prefab using Guid(54120123bbba00a40b47ab77f2ed61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21e11beb8d021ce4af548730c4b2b36') in 0.002852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Tree.prefab
+  artifactKey: Guid(2e6cbf50b00c20441938b3dc2dca1e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Polygon/Master_Polygon_Tree.prefab using Guid(2e6cbf50b00c20441938b3dc2dca1e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f96d0fa8fa27fdda13d06315d092a95') in 0.005311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 11.446578 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Gaia Biomes/Synty Nature Dead Tree Spawner.asset
+  artifactKey: Guid(942cef84a8014644fb0897f5d5583227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Gaia Biomes/Synty Nature Dead Tree Spawner.asset using Guid(942cef84a8014644fb0897f5d5583227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01700495663d136471b2301683c6c66b') in 0.011243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Gaia Biomes/Synty Nature Williow Tree Spawner.asset
+  artifactKey: Guid(cbff381652721f74087f9c23d03703c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Gaia Biomes/Synty Nature Williow Tree Spawner.asset using Guid(cbff381652721f74087f9c23d03703c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac988fcf32ac05221adca3657f6069a7') in 0.006070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Gaia Biomes/Synty Nature Plants Spawner.asset
+  artifactKey: Guid(5aaadd82ffce0ea44a76e7e22727d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Gaia Biomes/Synty Nature Plants Spawner.asset using Guid(5aaadd82ffce0ea44a76e7e22727d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d04914e25682f7d3ef87cf058c6cf9') in 0.005974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.527382 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/GeNa Masks/Ruins_Mask.png
+  artifactKey: Guid(177276e58899aee429bd3910f0af06b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/GeNa Masks/Ruins_Mask.png using Guid(177276e58899aee429bd3910f0af06b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3069dd589ffd39534a249735f467263d') in 0.074158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.076622 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/HDRP/Synty Nature Foliage.asset
+  artifactKey: Guid(6628c77fa6bf9fe47bdabf776a3f5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/HDRP/Synty Nature Foliage.asset using Guid(6628c77fa6bf9fe47bdabf776a3f5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac9b59c67d89f2752f4941955d04e2') in 0.002299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.984145 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Low Poly/Master_Low_Poly_Tree (LP).prefab
+  artifactKey: Guid(6b8f72ea5dabcc2468c3b0a530b69925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Low Poly/Master_Low_Poly_Tree (LP).prefab using Guid(6b8f72ea5dabcc2468c3b0a530b69925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2fe6619d1b6b0371e4ce34ba133b4f') in 0.005059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Low Poly/Master_Low_Poly_Tree_Generic (LP).prefab
+  artifactKey: Guid(f344fd8ea513f3b488b361b1e1b20d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Low Poly/Master_Low_Poly_Tree_Generic (LP).prefab using Guid(f344fd8ea513f3b488b361b1e1b20d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4f6de5ba2e38cffb2b36853bdfec3d') in 0.002786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Low Poly/Master_Low_Poly_Tree_Pine (LP).prefab
+  artifactKey: Guid(6218b66f259fc084b8052c7298a25589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Vegetation/Low Poly/Master_Low_Poly_Tree_Pine (LP).prefab using Guid(6218b66f259fc084b8052c7298a25589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c3429bf89e915b3eca58c30e6d226d') in 0.003874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.680681 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Rock Formations/Formations/Small_Rocks_Master.prefab
+  artifactKey: Guid(7efaad36f5eb0c541a6182cb70831d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Rock Formations/Formations/Small_Rocks_Master.prefab using Guid(7efaad36f5eb0c541a6182cb70831d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5898521c63af9d7085584da8cb5bc2b6') in 0.003715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 3.377369 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Particles/Fireflies_Master.prefab
+  artifactKey: Guid(83cb3d1e70f6de241b18ce2e81db4a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Particles/Fireflies_Master.prefab using Guid(83cb3d1e70f6de241b18ce2e81db4a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aff2335a5f5e03fefb641a66a8cb97') in 0.001655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.431000 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Birch_03 Variant.prefab
+  artifactKey: Guid(bf432d4089dc895479d651d5dd5e4285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Birch_03 Variant.prefab using Guid(bf432d4089dc895479d651d5dd5e4285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c965b6390a5b61305edf7a2d9cc86895') in 0.000906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Birch_Small_01 Variant.prefab
+  artifactKey: Guid(15378a7f2884a814b82643af06775164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Birch_Small_01 Variant.prefab using Guid(15378a7f2884a814b82643af06775164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb6736784d82187e13fe7637a302d8c') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Dead_03 Variant.prefab
+  artifactKey: Guid(ffff2fabf847a8b4e9d29a934692e747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Dead_03 Variant.prefab using Guid(ffff2fabf847a8b4e9d29a934692e747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f4c3c76e51384d00183c7f48fec6d3') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001315 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Log_02 Variant.prefab
+  artifactKey: Guid(ab818666a5b3b234eaffa9dbe18a88e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Log_02 Variant.prefab using Guid(ab818666a5b3b234eaffa9dbe18a88e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3d446b97b27034c28cca97031ef49e') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001088 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Pine_Large_01 Variant.prefab
+  artifactKey: Guid(7306e4024a024924b9d5f2d220e0dc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Pine_Large_01 Variant.prefab using Guid(7306e4024a024924b9d5f2d220e0dc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1136a228a973e8d7728e3689559ec3') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Pine_Small_02 Variant.prefab
+  artifactKey: Guid(1f45e44316efa384f82c6cce4f619bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Pine_Small_02 Variant.prefab using Guid(1f45e44316efa384f82c6cce4f619bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe87e7c20f19aec0a9226d445a74d911') in 0.000932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001882 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Swamp_02 Variant.prefab
+  artifactKey: Guid(be58e88185874b1488c98e08e8df67b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Swamp_02 Variant.prefab using Guid(be58e88185874b1488c98e08e8df67b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e06c7ec0899a29a3d65cb6a3110a020') in 0.000682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Willow_Large_01 Variant.prefab
+  artifactKey: Guid(04f4b470669f2ce409f3bcbcc44536ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Content Packs/Synty/Nature Pack/Content Resources/Prefabs/Gaia Terrain Trees/Trees/SM_Tree_Willow_Large_01 Variant.prefab using Guid(04f4b470669f2ce409f3bcbcc44536ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9a5236bda2ad570bba0ff7b763c2bf') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
